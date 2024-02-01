@@ -7,6 +7,7 @@
 .productdisplay-left{
     display: flex;
     gap: 2rem;
+    margin-top: 4rem;
 
 }
 .productdisplay-img-list{
@@ -28,6 +29,7 @@
     margin: 0px 70px;
     display: flex;
     flex-direction: column;
+    margin-top: 4rem;
 }
 .productdisplay-right h1{
     color: #3d3d3d;
