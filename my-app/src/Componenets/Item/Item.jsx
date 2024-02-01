@@ -1,9 +1,13 @@
 import React from 'react'
 import './Item.css'
+import { Link } from 'react-router-dom'
 const Item = (props) => {
   return (
     <div className='item'>
-        <img src={props.image} alt="" />
+      {/* linking item to product  */}
+      {/* we have used scrollTo because when we click on any product suppose related product in the bottom , 
+      then after clicking the page should scroll to top automatically */}
+        <Link to={`/product/${props.id}`}><img onClick={window.scrollTo(0,0)} src={props.image} alt="" /></Link>
         <p>{props.name}</p>
         <div className="item-prices">
             <div className="item-price-new">
