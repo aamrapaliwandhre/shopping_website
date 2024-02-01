@@ -1,5 +1,13 @@
 .item{
-    width: 350px;
+    width: 18.75rem;
+    margin-left: 2rem; 
+    
+}
+.item img{
+    width: 15rem;
+    
+    
+
 }
 .item p{
     margin: 6px 0px;
@@ -7,6 +15,7 @@
 .item-prices{
     display: flex;
     gap: 20px;
+    margin-bottom: 1rem;
 }
 .item-price-new{
     color: #374151;
@@ -19,7 +28,9 @@
     font-weight: 500;
     text-decoration: line-through;
 }
-.item:hover{
+/* .item:hover{
     transform: scale(1.05);
-    transition: 0.6s;
-}
+    transition: 0.3s;
+
+    
+} */
