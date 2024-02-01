@@ -1,11 +1,13 @@
 .productdisplay{
     display: flex;
     margin: 0rem 9.625rem;
+    /* margin-right: 20rem; */
 
 }
 .productdisplay-left{
     display: flex;
-    gap: 4.375rem;
+    gap: 2rem;
+
 }
 .productdisplay-img-list{
     display: flex;

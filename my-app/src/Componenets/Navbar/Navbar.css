@@ -1,7 +1,18 @@
 .navbar{
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
     padding: 15px;
+    box-shadow: 0 1px 3px -2px black;
+    position: fixed; */
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: var(--z-index-xxl);
+    background-color: white;
+    height: 14vh;
+    display: flex;
+    justify-content: space-between;
     box-shadow: 0 1px 3px -2px black;
 }
 
