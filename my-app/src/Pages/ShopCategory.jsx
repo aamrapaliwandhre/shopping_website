@@ -4,14 +4,15 @@ import { ShopContext } from '../Context/ShopContext'
 import dropdown_icon from '../Componenets/Assests/dropdown_icon.png'
 // import Item from "../Componenets/Item/Item"
 import Item from '../Componenets/Item/Item'
-import all_product from '../Componenets/Assests/all_product'
+//import all_product from '../Componenets/Assests/all_product'
 import Sidebar from '../Componenets/SideBar/SideBar'
 //import Product from './Product'
-import Products from "../Componenets/Assests/all_product"
+//import Products from "../Componenets/Assests/all_product"
 
 
 const ShopCategory = (props) => {
 const {all_product} = useContext(ShopContext);
+
 
 
 

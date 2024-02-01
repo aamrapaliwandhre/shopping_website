@@ -5,7 +5,7 @@ import Breadcrum from '../Componenets/Breadcrums/Breadcrum';
 import ProductDisplay from '../Componenets/ProductDisplay/ProductDisplay';
 import DescriptionBox from '../Componenets/DescriptionBox/DescriptionBox';
 import RelatedProducts from '../Componenets/RelatedProducts/RelatedProducts';
-import Sidebar from '../Componenets/SideBar/SideBar';
+//import Sidebar from '../Componenets/SideBar/SideBar';
 
 const Product = () => {
   const{all_product}=useContext(ShopContext)
